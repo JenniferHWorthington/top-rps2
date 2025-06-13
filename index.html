@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="blur-container">
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+      <section class="score">
+        <div class="win-message-container">
+          <h2 class="win-message"> Who will win?! </h2>
+        </div>
+        <div class="player-score">
+          <h3>Player Score: <span class="player-score-count"></span></h3>
+        </div>
+        <div class="computer-score">
+          <h3>Computer Score: <span class="computer-score-count"></span></h3>
+        </div>
+      </section>
+      <section class="choices">
+        <h3 class="player-choice"></h3>
+        <h3 class="computer-choice"></h3>
+      </section>
+      <section class="start-round">
+        <h2 class="round-start">Make your choice!</h2>
+      </section>
+      <section class="player-btns">
+        <figure>
+          <img id="rock" class="pbtn" src="img/rock.jpg" alt="rock image">
+          <figcaption>Rock</figcaption>
+        </figure>
+        <figure>
+          <img id="paper" class="pbtn" src="img/Paper.jpg" alt="paper image">
+          <figcaption>Paper</figcaption>
+        </figure>
+        <figure>
+          <img id="scissors" class="pbtn" src="img/scissors.jpeg" alt="scissors image">
+          <figcaption>Scissors</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2025 Jennifer Worthington</p>
+    </footer>
+  </div>
+  
+  <!-- JavaScript -->
+  <script src="js/script.js" defer></script>
+  <script src="js/game.js" defer></script>
+
+</body>
+<div class="winner hidden">
+  <div class="computer-wins hidden">
+    <img class="winner-img" src="images/terminator.jpg" alt="terminator image">
+    <h1>Computer Wins!</h1>
+  </div>
+  <div class="player-wins hidden">
+    <img class="winner-img" src="images/fonz.jpeg" alt="fonz thumbs up image">
+    <h1>Player Wins!</h1>
+  </div>
+</div>
+</html>
