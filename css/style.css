@@ -1,0 +1,36 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Libre Baskerville', serif;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+/* Container for blurred background */
+
+.blur-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Page Settings */
+
+header,
+footer {
+  padding: 1% 15%;
+  background-color: 3#A5C9CA;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3 {
+  font-family: 'Rubik', sans-serif;
+}
