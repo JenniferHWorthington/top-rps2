@@ -11,7 +11,6 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
   <div class="blur-container">
@@ -24,10 +23,10 @@
           <h2 class="win-message"> Who will win?! </h2>
         </div>
         <div class="player-score">
-          <h3>Player Score: <span class="player-score-count"></span></h3>
+          <h3>Player Score: <span class="player-score-count"> </span></h3>
         </div>
         <div class="computer-score">
-          <h3>Computer Score: <span class="computer-score-count"></span></h3>
+          <h3>Computer Score: <span class="computer-score-count"> </span></h3>
         </div>
       </section>
       <section class="choices">
@@ -35,40 +34,38 @@
         <h3 class="computer-choice"></h3>
       </section>
       <section class="start-round">
-        <h2 class="round-start">Make your choice!</h2>
+        <h2 class="round-count">Make your choice!</h2>
       </section>
       <section class="player-btns">
         <figure>
-          <img id="rock" class="pbtn" src="img/rock.jpg" alt="rock image">
+          <img id="Rock" class="pbtn" src="img/rock.jpg" alt="rock image">
           <figcaption>Rock</figcaption>
         </figure>
         <figure>
-          <img id="paper" class="pbtn" src="img/Paper.jpg" alt="paper image">
+          <img id="Paper" class="pbtn" src="img/Paper.jpg" alt="paper image">
           <figcaption>Paper</figcaption>
         </figure>
         <figure>
-          <img id="scissors" class="pbtn" src="img/scissors.jpeg" alt="scissors image">
+          <img id="Scissors" class="pbtn" src="img/scissors.jpeg" alt="scissors image">
           <figcaption>Scissors</figcaption>
         </figure>
       </section>
     </main>
     <footer>
-      <p>Copyright &copy; 2025 Jennifer Worthington</p>
+      <p>Copyright © 2022 Jennifer W</p>
     </footer>
   </div>
-  
-  <!-- JavaScript -->
-  <script src="js/game.js" defer></script>
-
+    <!-- JavaScript -->
+    <script src="js/game.js" defer></script>
 </body>
-<div class="winner hidden">
-  <div class="computer-wins hidden">
-    <img class="winner-img" src="images/terminator.jpg" alt="terminator image">
-    <h1>Computer Wins!</h1>
+  <div class="winner hidden">
+    <div class="computer-wins hidden">
+      <img class="winner-img" src="img/terminator.jpg" alt="terminator image">
+      <h1>Computer Wins!</h1>
+    </div>
+    <div class="player-wins hidden">
+      <img class="winner-img" src="img/fonz.jpeg" alt="fonz thumbs up image">
+      <h1>Player Wins!</h1>
+    </div>
   </div>
-  <div class="player-wins hidden">
-    <img class="winner-img" src="images/fonz.jpeg" alt="fonz thumbs up image">
-    <h1>Player Wins!</h1>
-  </div>
-</div>
 </html>
